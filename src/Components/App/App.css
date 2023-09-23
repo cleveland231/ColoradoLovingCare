@@ -1,11 +1,19 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
-.sides {
-
+.Center {
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-* {
+.Sides {
+  width: 10%;
+}
+
+/* * {
   outline: 1px solid red;
-}
+} */

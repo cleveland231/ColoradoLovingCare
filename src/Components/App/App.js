@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Navigation } from '../Navigation/Navigation';
 import { Home } from '../Home/Home'
+import { TonTechnologies } from '../TonTechnologies/TonTechnologies'
 import { Switch, Route, NavLink } from 'react-router-dom';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className="Center">
         <Navigation/>
         <Home/>
+        <TonTechnologies/>
       </div>
       <div className="Sides"></div>
     </div>
