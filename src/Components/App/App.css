@@ -14,6 +14,14 @@
   width: 10%;
 }
 
+.Titles {
+  background-color: #002868;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
 /* * {
   outline: 1px solid red;
 } */
