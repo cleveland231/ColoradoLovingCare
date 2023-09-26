@@ -1,5 +1,15 @@
 .HomePhoto {
-  height: 75%;
-  width: 75%;
+  height: 80%;
+  width: 80%;
   border-radius: 1rem;
+}
+
+.HomeParagraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MissionStatment {
+  width: 80%;
 }

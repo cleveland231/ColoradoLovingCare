@@ -9,7 +9,7 @@ import { HostHomeProvider } from '../HostHomeProvider/HostHomeProvider'
 import { RequestServices } from '../RequestServices/RequestServices'
 import { Footer } from '../Footer/Footer'
 import { TonTechnologies } from '../TonTechnologies/TonTechnologies'
-import { Switch, Route, NavLink } from 'react-router-dom';
+import { Routes, Route, NavLink } from 'react-router-dom';
 
 function App() {
   return (
@@ -17,12 +17,20 @@ function App() {
       <div className="Sides"></div>
       <div className="Center">
           <Navigation/>
-          <Home/>
-          <RequestServices/>
-          <HostHomeProvider/>
-          <AboutCLC/>
-          <Locations/>
-          <Contact/>
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/requestservices" element={<RequestServices/>} />
+              <Route path="/hosthomeprovider" element={<HostHomeProvider/>} />
+                <Route path="/aboutclc" element={<AboutCLC/>} />
+                  <Route path="/locations" element={<Locations/>} />
+                    <Route path="/contact" element={<Contact/>} />
+          </Routes>
+
+
+
+
+
+
           <Footer/>
           <TonTechnologies/>
       </div>

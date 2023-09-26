@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import MainLogo from '../../Assets/MainLogo.png'
+import { NavLink , Route } from 'react-router-dom';
 
 
 export const Navigation = () => {
@@ -11,13 +12,13 @@ export const Navigation = () => {
       </div>
       <div className="NavigationButtons">
         <div className="ServiceButtonBox">
-          <button className="ServiceButtons"> Request Service </button>
-          <button className="ServiceButtons"> Become a Host Home Provider </button>
+          <NavLink className="ServiceButtons" to="/requestservices"> Request Service </NavLink>
+          <NavLink className="ServiceButtons" to="/hosthomeprovider"> Become a Host Home Provider </NavLink>
         </div>
         <div className="NavBottomButtonBox">
-          <button className="NavBottomButtons"> About CLC </button>
-          <button className="NavBottomButtons"> Locations </button>
-          <button className="NavBottomButtons"> Contact </button>
+          <NavLink className="NavBottomButtons" to="/aboutclc"> About CLC </NavLink>
+          <NavLink className="NavBottomButtons" to="/locations"> Locations </NavLink>
+          <NavLink className="NavBottomButtons" to="/contact"> Contact </NavLink>
         </div>
       </div>
     </div>
