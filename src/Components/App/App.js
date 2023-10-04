@@ -20,17 +20,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/requestservices" element={<RequestServices/>} />
-              <Route path="/hosthomeprovider" element={<HostHomeProvider/>} />
-                <Route path="/aboutclc" element={<AboutCLC/>} />
-                  <Route path="/locations" element={<Locations/>} />
-                    <Route path="/contact" element={<Contact/>} />
+            <Route path="/hosthomeprovider" element={<HostHomeProvider/>} />
+            <Route path="/aboutclc" element={<AboutCLC/>} />
+            <Route path="/locations" element={<Locations/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
-
-
-
-
-
-
           <Footer/>
           <TonTechnologies/>
       </div>

@@ -3,9 +3,10 @@
   padding: 1rem;
   color: white;
   margin-top: auto;
-  border-radius: 1rem;
+  border-radius: .5rem;
 }
 
 .FooterWords {
   font-weight: bold;
+  padding: .5rem;
 }

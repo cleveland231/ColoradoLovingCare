@@ -8,12 +8,14 @@ export const Navigation = () => {
   return (
     <div className="Navigation">
       <div className="LogoBox">
+        <NavLink to="/">
         <img className="Logo" src={ MainLogo } alt="Main Logo"/>
+        </NavLink>
       </div>
       <div className="NavigationButtons">
         <div className="ServiceButtonBox">
-          <NavLink className="ServiceButtons" to="/requestservices"> Request Service </NavLink>
           <NavLink className="ServiceButtons" to="/hosthomeprovider"> Become a Host Home Provider </NavLink>
+          <NavLink className="ServiceButtons" to="/requestservices"> Request Services </NavLink>
         </div>
         <div className="NavBottomButtonBox">
           <NavLink className="NavBottomButtons" to="/aboutclc"> About CLC </NavLink>

@@ -17,8 +17,12 @@
 .Titles {
   background-color: #002868;
   color: white;
-  border-radius: 1rem;
+  border-radius: .5rem;
   padding: 1rem;
+  font-weight: bold;
+}
+
+.p {
   font-weight: bold;
 }
 

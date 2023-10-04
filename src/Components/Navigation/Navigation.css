@@ -30,8 +30,13 @@
 .ServiceButtons {
   padding: 1rem;
   font-size: 1rem;
-  border-radius: 1rem;
+  border-radius: .5rem;
   font-weight: bold;
+  outline: 1px solid black;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  outline: none;
 }
 
 .NavBottomButtonBox {
@@ -49,4 +54,5 @@
 	outline: inherit;
   font-size: 1rem;
   font-weight: bold;
+  text-decoration: none
 }
