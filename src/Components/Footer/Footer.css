@@ -1,9 +1,9 @@
 .Footer {
-  background-color: gray;
+  background-color: #BF0A30;
   padding: 1rem;
   color: white;
   margin-top: auto;
-  border-radius: .5rem;
+  border-radius: .25rem;
 }
 
 .FooterWords {

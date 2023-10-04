@@ -4,7 +4,7 @@ import './AboutCLC.css';
 export const AboutCLC = () => {
   return (
     <div className="AboutCLC">
-      <p className="Titles"> About Colorado Loving Care </p>
+      <h2 className="Titles"> About Colorado Loving Care </h2>
       <div className="AboutCLCBody">
       <p>
       Colorado Loving Care was founded in Colorado in 2021 with a mission to
@@ -30,31 +30,34 @@ export const AboutCLC = () => {
       </div>
 
       <div className="CLCPillarBox">
-        <div className="CLCPillar"> Our Vision
+        <div className="CLCPillar">
+          <h2> Our Vision </h2>
           <p>
-          Colorado Loving Care places a strong emphasis on values such as
+          "Colorado Loving Care places a strong emphasis on values such as
           respect, quality, care, professionalism, and teamwork in all aspects
           of our operations. Our aspiration is to establish ourselves as a
           highly esteemed residential agency in the Denver metro area, offering
-          exceptional care for individuals with developmental disabilities.
+          exceptional care for individuals with developmental disabilities"
           </p>
         </div>
-        <div className="CLCPillar"> Our Mission
+        <div className="CLCPillar">
+          <h2> Our Mission </h2>
           <p>
-          At Colorado Loving Care, we are dedicated to providing compassionate
+          "At Colorado Loving Care, we are dedicated to providing compassionate
           and nurturing host home services, fostering a sense of belonging and
           independence for individuals, while also encouraging their
-          integration into the community, all guided by love and care.
+          integration into the community, all guided by love and care"
           </p>
         </div>
-        <div className="CLCPillar"> Our Values
+        <div className="CLCPillar">
+          <h2> Our Values </h2>
           <p>
-          Our core belief is that every person, including our clients and those
+          "Our core belief is that every person, including our clients and those
           we serve, possesses unique qualities and deserves to be cherished.
           The care and support we extend to each individual within our agency
           are tailored to their distinct needs. Our dedicated team of
           professionals is driven by principles of respect, trust, patience,
-          dignity, and empathy.
+          dignity, and empathy"
           </p>
         </div>
       </div>

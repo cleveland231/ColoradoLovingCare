@@ -14,6 +14,8 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: center;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .DownloadButtonBox {
@@ -23,7 +25,23 @@
   width: 60%;
 }
 
-.DownloadButtons {
+button {
   padding: 1rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  font-weight: bold;
+  background-color: white;
+  color: #002868;
+  outline: .25rem solid #002868;
   margin: 1rem;
+  word-wrap: break-word;
+  background: none;
+  border: none;
+  appearance: none;
+}
+
+button:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }

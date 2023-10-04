@@ -6,7 +6,7 @@
 }
 
 .CLCPillar {
-  outline: 1px solid black;
+  outline: .25rem solid #BF0A30;
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
