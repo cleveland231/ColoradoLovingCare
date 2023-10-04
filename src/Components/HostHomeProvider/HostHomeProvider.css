@@ -1,8 +1,29 @@
 .MinimumQualifications {
   display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.LiStyling {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
-	align-content: stretch;
+	align-content: center;
+}
+
+.DownloadButtonBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.DownloadButtons {
+  padding: 1rem;
+  margin: 1rem;
 }
