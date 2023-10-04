@@ -1,5 +1,8 @@
 import React from 'react';
 import './HostHomeProvider.css';
+import HHPApplication from '../../Assets/HHPApplication.pdf'
+import CapsCheck from '../../Assets/CapsCheck.pdf'
+import FrequentQuestions from '../../Assets/FrequentQuestions.pdf'
 
 export const HostHomeProvider = () => {
   return (
@@ -11,11 +14,17 @@ export const HostHomeProvider = () => {
       <h3> Step 1. Download and Fill out Both Forms </h3>
       <h3> Step 2. Send to colovingcare1@gmail.com </h3>
       <div classname="DownloadButtonBox">
-        <button id="DownloadingButtons"> CLC HHP Application </button>
-        <button id="DownloadingButtons"> Caps Check Form </button>
+        <a href={HHPApplication} download="HHPAppplication">
+          <button id="DownloadingButtons"> CLC HHP Application </button>
+        </a>
+        <a href={CapsCheck} download="CapsCheck">
+          <button id="DownloadingButtons"> Caps Check Form </button>
+        </a>
       </div>
       <p> Download to View Frequently Asked Questions </p>
-        <button id="DownloadingButtons"> Frequently Asked Questions </button>
+        <a href={FrequentQuestions} download="FrequentQuestions">
+          <button id="DownloadingButtons"> Frequently Asked Questions </button>
+        </a>
         <h2> Minimum Qualifications </h2>
           <div className="LiStyling">
             <li> Prior experience as a Host Home Provider is preferred. </li>
