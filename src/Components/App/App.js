@@ -12,6 +12,7 @@ import { TonTechnologies } from '../TonTechnologies/TonTechnologies'
 import { Routes, Route, NavLink } from 'react-router-dom';
 
 function App() {
+
   return (
     <div className="App">
       <div className="Sides"></div>

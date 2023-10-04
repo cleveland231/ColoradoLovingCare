@@ -4,11 +4,11 @@ import './RequestServices.css';
 export const RequestServices = () => {
   return (
     <div className="RequestServices">
-      <p className="Titles"> Requesting Services </p>
+      <h2 className="Titles"> Requesting Services </h2>
       <div className="BodyWords">
-        <p> We are currently specializing our services </p>
-        <p> Please email us at colovingcare1.com to request a specific service </p>
-        <p> Thank you </p>
+        <p> We are currently working on specializing our services, </p>
+        <p> Please email us at colovingcare1.com to request a specific service. </p>
+        <p> Thank you! </p>
       </div>
     </div>
   );

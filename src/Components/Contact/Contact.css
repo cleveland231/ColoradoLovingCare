@@ -1,0 +1,32 @@
+.ContactForm {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+input {
+  height: 1.5rem;
+  width: 30rem;
+  margin: 1rem;
+  padding: .5rem;
+}
+
+textarea {
+  height: 5rem;
+  width: 30rem;
+  margin: 1rem;
+  padding: .5rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+.SendButton {
+  
+}
