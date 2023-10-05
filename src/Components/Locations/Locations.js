@@ -1,5 +1,6 @@
 import React from 'react';
 import './Locations.css';
+import CECbuilding from '../../Assets/CECbuilding.jpeg'
 
 export const Locations = () => {
   return (
@@ -7,6 +8,7 @@ export const Locations = () => {
       <h2 className="Titles"> Locations </h2>
       <div className="BodyWords">
       <h3> Main Office:  1776 S. Jackson St. Denver, CO 80210 #405 </h3>
+      <img className="HomePhoto" src={ CECbuilding } alt="CEC building"/>
       <h3> We Provide Services but are not limited to: </h3>
       <div className="CoLocations">
         <li> Denver </li>

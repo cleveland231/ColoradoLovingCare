@@ -11,3 +11,20 @@
   margin: 1rem;
   padding: 1rem;
 }
+
+@media (max-width: 500px) {
+  .CLCPillarBox {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .CLCPillar {
+    outline: .25rem solid #BF0A30;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+  }
+}

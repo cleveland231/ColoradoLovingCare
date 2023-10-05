@@ -17,6 +17,7 @@
   font-weight: bold;
   font-size: 1rem;
   margin-bottom: 5rem;
+  text-align: left;
 }
 
 .DownloadButtonBox {
@@ -45,4 +46,11 @@ button:hover{
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
+}
+
+@media (max-width: 500px) {
+  .textAligning {
+    text-align: left;
+    padding-left: 1rem;
+  }
 }

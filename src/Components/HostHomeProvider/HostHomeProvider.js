@@ -10,25 +10,26 @@ export const HostHomeProvider = () => {
       <h2 className="Titles"> Becoming a Host Home Provider </h2>
 
       <div className="MinimumQualifications">
-
-      <h3> Step 1. Download and Fill out Both Forms </h3>
-      <h3> Step 2. Send to colovingcare1@gmail.com </h3>
-      <div classname="DownloadButtonBox">
-        <a href={HHPApplication} download="HHPAppplication">
-          <button id="DownloadingButtons"> CLC HHP Application </button>
-        </a>
-        <a href={CapsCheck} download="CapsCheck">
-          <button id="DownloadingButtons"> Caps Check Form </button>
-        </a>
-      </div>
-      <p> Download to View Frequently Asked Questions </p>
+        <div className="textAligning">
+          <h3> Step 1. Download and Fill out Both Forms </h3>
+          <h3> Step 2. Send to colovingcare1@gmail.com </h3>
+        </div>
+          <div classname="DownloadButtonBox">
+            <a href={HHPApplication} download="HHPAppplication">
+              <button id="DownloadingButtons"> CLC HHP Application </button>
+            </a>
+            <a href={CapsCheck} download="CapsCheck">
+              <button id="DownloadingButtons"> Caps Check Form </button>
+            </a>
+          </div>
+      <h3> Download to View Frequently Asked Questions </h3>
         <a href={FrequentQuestions} download="FrequentQuestions">
           <button id="DownloadingButtons"> Frequently Asked Questions </button>
         </a>
         <h2> Minimum Qualifications </h2>
           <div className="LiStyling">
             <li> Prior experience as a Host Home Provider is preferred. </li>
-            <li> Minimum age requirement is 18 years old. </li>
+            <li> Minimum age is 18 years old. </li>
             <li> Possession of a GED or high school diploma is necessary. </li>
             <li> Reliable transportation is essential, with the ability to safely transport. </li>
             <li> Successful completion of multiple background checks is required. </li>

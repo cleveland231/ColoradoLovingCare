@@ -28,6 +28,30 @@ p {
   font-size: 1.25rem;
 }
 
+.AboutCLCBody {
+  text-align: left;
+}
+
 /* * {
   outline: 1px solid red;
 } */
+
+@media (max-width: 500px) {
+  .App {
+    text-align: center;
+    display: flex;
+  }
+
+  p {
+    font-weight: bold;
+    font-size: .75rem;
+  }
+
+  .Center {
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
