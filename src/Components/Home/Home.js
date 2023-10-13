@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import CLCHomePage from '../../Assets/CLCHomePage.png'
+import CLCHomePage from '../../Assets/HomePhotoGray.png'
 
 export const Home = () => {
   return (

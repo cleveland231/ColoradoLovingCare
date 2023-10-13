@@ -1,6 +1,6 @@
 import React from 'react';
 import './Locations.css';
-import CECbuilding from '../../Assets/CECbuilding.jpeg'
+import CECbuilding from '../../Assets/CECbuildingApt2.jpeg'
 
 export const Locations = () => {
   return (

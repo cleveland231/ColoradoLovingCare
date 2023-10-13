@@ -22,7 +22,7 @@ export const AboutCLC = () => {
       and provides continuous training and assistance.
       </p>
       <p>
-       With a vast pool of resources at our disposal, our host providers and
+       Our host providers and
        family caregivers benefit from substantial support. We function as
        advocates not only for the individuals who receive support from
        Colorado Loving Care but also for our dedicated providers.
