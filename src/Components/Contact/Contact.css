@@ -15,7 +15,7 @@ input {
   margin: 1rem;
   padding: .5rem;
   border-radius: .25rem;
-  outline: 1px solid black;
+
 }
 
 textarea {
@@ -24,7 +24,7 @@ textarea {
   margin: 1rem;
   padding: .5rem;
   border-radius: .25rem;
-  outline: 2px solid black;
+
 }
 
 label {
@@ -58,7 +58,7 @@ label {
     margin: 1rem;
     padding: .5rem;
     border-radius: .25rem;
-    outline: 1px solid black;
+
   }
 
   textarea {
@@ -67,6 +67,6 @@ label {
     margin: 1rem;
     padding: .5rem;
     border-radius: .25rem;
-    outline: 2px solid black;
+
   }
 }
