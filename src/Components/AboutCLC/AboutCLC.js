@@ -1,5 +1,9 @@
 import React from 'react';
 import './AboutCLC.css';
+import Cleveland from '../../Assets/ClevelandBoulder.JPG'
+import Nova from '../../Assets/NovaBoulder.JPG'
+import Jo from '../../Assets/JoBoulder.JPG'
+import Moody from '../../Assets/MoodyBoulder.JPG'
 
 export const AboutCLC = () => {
   return (
@@ -27,6 +31,29 @@ export const AboutCLC = () => {
        advocates not only for the individuals who receive support from
        Colorado Loving Care but also for our dedicated providers.
        </p>
+      </div>
+
+      <div className="MeetOurTeam">
+        <div className="TeamBox">
+          <img className="MeetOurTeamPhoto" src={ Nova } alt="Nova"/>
+          <h2> Nova Bettinger </h2>
+          <h3> CEO </h3>
+        </div>
+        <div className="TeamBox">
+          <img className="MeetOurTeamPhoto" src={ Jo } alt="Jo"/>
+          <h2> Joseph Longkutoy </h2>
+          <h3> Financial Director </h3>
+        </div>
+        <div className="TeamBox">
+          <img className="MeetOurTeamPhoto" src={ Cleveland } alt="Cleveland"/>
+          <h2> Cleveland Ticoalu </h2>
+          <h3> Residential Director </h3>
+        </div>
+        <div className="TeamBox">
+          <img className="MeetOurTeamPhoto" src={ Moody } alt="Moody"/>
+          <h2> Moody Rantung </h2>
+          <h3> Human Resources </h3>
+        </div>
       </div>
 
       <div className="CLCPillarBox">
